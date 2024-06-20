@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f0f0f0;
+    background-color: #FFB908;
     line-height: 1.6;
 }
 
@@ -36,7 +36,7 @@ header {
 .heading {
     text-align: center;
     margin-bottom: 30px;
-    color: #FFB908;
+    color: #000000;
 }
 
 .box-container {
@@ -51,14 +51,9 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.box .image {
-    position: relative;
-
-}
-
 .box .image img {
     width: 100%;
-    height: auto;
+    height: 40vh;
     transition: transform 0.3s ease;
 }
 
@@ -96,4 +91,19 @@ header {
 
 .box button:hover {
     background-color: #555;
+}
+
+.navbar{
+    display: flex;
+    flex-direction:column;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.box button a{
+    color: black;
+    text-decoration: none;
 }
